@@ -1,0 +1,48 @@
+programa
+{
+	inclua biblioteca Matematica
+ --> m
+	
+	funcao inicio()
+	{
+	
+		real venus = 0.61519726*365
+		real marte = 1.8808158*365
+		real jupiter = 11.862615*365
+		real urano = 84.016846*365
+		real netuno = 164.79132*365
+		inteiro idade
+		inteiro planeta
+
+		
+		escreva("Quantos anos você tem?")
+		leia(idade)
+
+
+		escreva("Escolha um planeta: 1 para Venus, 2 para Marte, 3 para Jupiter, 4 para Urano e 5 para Netuno (Escolha o número)", "\n")
+		leia(planeta)
+
+		se (planeta == 1){
+		escreva("Em Venus voce teria aproximadamente ", m.arredondar((idade*365)/venus, 3), " anos.", "\n")
+		}
+		
+		se (planeta == 2){
+		escreva("Em Marte voce teria aproximadamente ", m.arredondar((idade*365)/marte, 3), " anos.", "\n")
+		}
+		
+		se (planeta == 3){
+		escreva("Em Jupiter voce teria aproximadamente ", m.arredondar((idade*365)/jupiter, 3), " anos.", "\n")
+		}
+		
+		se (planeta == 4){
+		escreva("Em Urano voce teria aproximadamente ", m.arredondar((idade*365)/urano, 3), " anos.", "\n")
+		}
+		
+		se (planeta == 5){
+		escreva("Em Netuno voce teria aproximadamente ",m.arredondar((idade*365)/netuno, 3), " anos.", "\n")
+		}
+
+	
+		escreva("Olá Mundo")
+	}
+}
