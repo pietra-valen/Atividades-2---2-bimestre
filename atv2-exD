@@ -1,0 +1,15 @@
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+	real venus = 0.61519726
+		inteiro idade
+		
+		escreva("Digite sua idade em anos terrestres: ")
+		leia(idade)
+
+		escreva("Você sera mais jovem em netuno, com ", Matematica.arredondar((idade*365)/venus, 3), " anos.", "\n" )
+	}
+}
