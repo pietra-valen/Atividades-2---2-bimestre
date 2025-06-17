@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+     	//a
+		real venus = 0.61519726*365
+		real marte = 1.8808158*365
+		real jupiter = 11.862615*365
+		real urano = 84.016846*365
+		real netuno = 164.79132*365
+
+		venus = venus * 365.25
+		escreva("Venus demora " , venus , " dias para dar uma volta completa no Sol \n")
+
+		marte = marte * 365.25
+		escreva("Marte demora " , marte , " dias para dar uma volta completa no Sol \n")
+
+		jupiter = jupiter * 365.25
+		escreva("Jupiter demora " , jupiter , " dias para dar uma volta completa no Sol \n")
+
+		urano = urano * 365.25
+		escreva("Urano demora " , urano , " dias para dar uma volta completa no Sol \n")
+
+		netuno = netuno * 365.25
+		escreva("Netuno demora " , netuno , " dias para dar uma volta completa no Sol \n")
+	}
+}
