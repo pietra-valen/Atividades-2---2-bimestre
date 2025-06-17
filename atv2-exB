@@ -1,0 +1,14 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+		real idade_ano_terrestre = 30.96
+		real idade_em_mercurio
+
+		idade_em_mercurio = idade_ano_terrestre / 0.2408467
+
+		escreva("\nSua idade em Mercurio é " , idade_em_mercurio , " anos \n")
+	}
+}
